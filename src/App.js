@@ -5,10 +5,7 @@ function App() {
   return (
 		<div className="App">
 			<div className="iframeContainer iframe4To3">
-				<iframe
-					src="https://dive.hyundaicard.com/web/main.hdc"
-					allowfullscreen
-				></iframe>
+				<iframe src="https://www.youtube.com/" allowfullscreen></iframe>
 			</div>
 		</div>
   );
