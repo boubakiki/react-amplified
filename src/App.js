@@ -4,12 +4,9 @@ import './App.css';
 function App() {
   return (
 		<div className="App">
-			<div class="videowrapper">
+			<div className="iframeContainer iframe4To3">
 				<iframe
-					// width="560"
-					// height="315"
 					src="https://dive.hyundaicard.com/web/main.hdc"
-					frameborder="0"
 					allowfullscreen
 				></iframe>
 			</div>
