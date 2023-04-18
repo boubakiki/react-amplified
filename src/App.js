@@ -5,11 +5,13 @@ function App() {
   return (
 		<div className="App">
 			<iframe
-				id="inlineFrameExample"
-				title="Inline Frame Example"
-				width="1366px"
-				height="1024px"
+				style={{ position: "absolute", width: "100%", height: "100%" }}
+				width="1280"
+				height="720"
 				src="https://dive.hyundaicard.com/web/main.hdc"
+				frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen=""
 			></iframe>
 		</div>
   );
